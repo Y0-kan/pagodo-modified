@@ -17,6 +17,6 @@ python ghdb_scraper.py -s -j -i
 然后运行pagodo.py，指定相应的域名和dork列表等配置即可。
 以下是一个常用的命令：
 ```
-python3 pagodo.py -d example.con -g dorks/error_messages.dorks -l -i 12 -x 20 -p socks5h://127.0.0.1:7890 -o result.json -s result.txt
+python3 pagodo.py -d example.con -g dorks/error_messages.dorks -i 12 -x 20 -p socks5h://127.0.0.1:7890 -o result.json -s result.txt
 ```
 详细使用请参考使用文档及原项目。
