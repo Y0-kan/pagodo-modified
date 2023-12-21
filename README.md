@@ -3,7 +3,7 @@
 
 对[pagodo](https://github.com/opsdisk/pagodo)进行了点小修改
 
-主要是将IP被google ban之后的睡眠时间缩小(60mins->2mins)，方便使用（起码是方便我使用）
+主要是将IP被google ban之后的睡眠时间缩小(60mins->2mins)，方便使用
 
 这样配合代理池，ip被ban之后，直接手动切换节点即可继续扫描，无需等待60mins，亦可设置代理ip自动切换，每个几分钟切换一次ip。
 
